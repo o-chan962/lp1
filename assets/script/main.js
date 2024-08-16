@@ -64,7 +64,7 @@ $('#smarttab').smartTab({
 
 //アンカーリンク スムーズスクロール
 $(function(){
-  $('a[href^=#]').click(function() {
+  $('a[href^="#"]').click(function() {
   var speed = 500; // スクロール速度(ミリ秒)
   var href = $(this).attr("href");
   var target = $(href == "#" || href == "" ? 'html' : href);
@@ -72,4 +72,8 @@ $(function(){
   $('html').animate({scrollTop:position}, speed, 'swing');
   return false;
   });
+  });
+
+  $('a[href^="#"]').click(function() {
+    hamburger.removeClass('hamburger-menu-active');
   });
