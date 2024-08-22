@@ -59,6 +59,7 @@ $('.js-fadein-right').waypoint({
 $('#smarttab').smartTab({
     enableUrlHash: false, // タブidにもとづいたURLハッシュの付与を無効
     autoAdjustHeight: false
+
 });
 
 //アンカーリンク スムーズスクロール

@@ -1031,7 +1031,7 @@ p.contact-catch {
 
 /*タブナビゲーション*/
 .st>.nav {
-    flex-direction: row !important ;
+    flex-direction: row  ;
     font-weight: bold;
     column-gap: 0.938rem;
     min-width: 10.25rem;
