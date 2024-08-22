@@ -101,7 +101,7 @@ section#price{
   .button-blue {
   margin: 0 auto ;
   padding: 1.25rem 4.375rem;
-  width:  22.5rem;
+  max-width:  22.5rem;
   font-size: 1.5rem;
   height: 4.688rem;
   }
